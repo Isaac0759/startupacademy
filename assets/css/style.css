@@ -1917,8 +1917,13 @@ input[type="submit"]:focus {
 }
 
 /* Contact Page Map */
-.map-inner .map {
-    height: 450px;
+.map-inner{
+    text-align: center;
+}
+.map-inner iframe {
+    height: 500px;
+    width: 1200px;
+
 }
 
 .leaflet-bottom.leaflet-right {
